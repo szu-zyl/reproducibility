@@ -7,9 +7,9 @@ The study is motivated by serial maternal and child healthcare pathways. The rel
 ## Package contents
 
 - `code/` contains the final model, LBBD, CBBD, K-BRKGA, experiment, plotting, instance-export, and verification programs.
-- `data/section_5_2/` contains 120 method-instance runs, 480 patient-level burden records, and the 12-row summary used in Table 3 and Figures 4 and 5.
-- `data/section_5_3/` contains 120 exact-method runs, 40 K-BRKGA runs, the combined 160-record file, and the summaries used in Tables 5, 6, and 8 and Appendix Tables F.2 to F.5.
-- `data/section_5_4/` contains 180 individual runs and the 18-row summary used in Table 7.
+- `data/section_5_2/` contains 120 method-instance runs, 480 patient-level burden records, and the 12-row summary used in Table 2 and Figures 3 and 4.
+- `data/section_5_3/` contains 120 exact-method runs, 40 K-BRKGA runs, the combined 160-record file, and the summaries used in Tables 3, 4, and 5 and Appendix Tables F.2 to F.5.
+- `data/section_5_4/` contains 180 individual runs and the 18-row summary used in Table 6.
 - `instances/` contains 60 compressed base-instance files and a 260-row manifest. Prefix and lateness-intensity rules in the manifest identify every logical experimental instance.
 - `figures/section_5_2/` contains the two figures reported in Section 5.2.
 - `verification/` contains the mapping from the paper tables and figures to their source data.
