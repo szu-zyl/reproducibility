@@ -1,4 +1,4 @@
-# Computational package for Cluster-based Benders decomposition for multistage appointment scheduling
+# Computational package for "Cluster-based Benders decomposition for multistage appointment scheduling"
 
 This package contains the code, numerical instances, individual run records, summary tables, and validation checks for the computational study in Sections 5.2, 5.3, and 5.4.
 
