@@ -1,0 +1,13 @@
+paper_location,paper_item,source_file,grouping_or_filter,reported_fields,reproduction_program
+Main text Section 5.2,Table 3,data/section_5_2/summary.csv,"K, method","validated objective, alpha, beta, direct burden, inter-stage burden",code/run_section52.py
+Main text Section 5.2,Figure 4,data/section_5_2/individual_runs.csv,"K, method","mean direct and inter-stage burden",code/plot_section52.py
+Main text Section 5.2,Figure 5,data/section_5_2/patient_burdens.csv,"K, method, patient","patient-level total burden distribution",code/plot_section52.py
+Main text Section 5.3,Table 5,data/section_5_3/summary.csv,"J, method","validated objective, runtime, validation passes",code/summarize_section53.py
+Main text Section 5.3,Table 6,data/section_5_3/paired_comparisons.csv,"J, method pair","mean percentage reduction, wins, ties, losses",code/summarize_section53.py
+Main text Section 5.3,Table 8,data/section_5_3/decomposition_work.csv,J,"mean cuts, mean scenario screens, percentage reductions",code/summarize_section53.py
+Main text Section 5.4,Table 7,data/section_5_4/summary.csv,"K, kappa","lateness means, validated objective, alpha, beta, runtime",code/run_section54.py
+Appendix F,Table F.1,instances/manifest.csv,experimental block,"scales, scenario counts, replications, seed protocol",code/export_instances.py
+Appendix F,Table F.2,"data/section_5_3/exact_runs.csv; data/section_5_3/decomposition_work.csv",method and J,"variables, constraints, cuts, scenario screens",code/summarize_section53.py
+Appendix F,Table F.3,"data/section_5_3/exact_runs.csv; data/section_5_3/kbrkga_runs.csv",method,"record counts, validation passes, objective checks",code/verify_package.py
+Appendix F,Table F.4,data/section_5_3/summary.csv,"J, method","out-of-sample direct and inter-stage waiting diagnostics",code/summarize_section53.py
+Appendix F,Table F.5,data/section_5_3/paired_comparisons.csv,"J, method pair","paired confidence intervals and p-values",code/summarize_section53.py
