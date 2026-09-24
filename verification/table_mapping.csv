@@ -1,0 +1,13 @@
+paper_location,paper_item,source_file,grouping_or_filter,reported_fields
+Main text Section 5.2,Table 2,data/section_5_2/summary.csv,"K, method","validated objective, alpha, beta, direct burden, inter-stage burden"
+Main text Section 5.2,Figure 3,data/section_5_2/individual_runs.csv,"K, method",mean direct and inter-stage burden
+Main text Section 5.2,Figure 4,data/section_5_2/patient_burdens.csv,"K, method, patient",patient-level total burden distribution
+Main text Section 5.3,Table 3,data/section_5_3/summary.csv,"J, method","validated objective, runtime, validation passes"
+Main text Section 5.3,Table 4,data/section_5_3/paired_comparisons.csv,"J, method pair","mean percentage reduction, wins, ties, losses"
+Main text Section 5.3,Table 5,data/section_5_3/decomposition_work.csv,J,"mean cuts, mean scenario screens, percentage reductions"
+Main text Section 5.4,Table 6,data/section_5_4/summary.csv,"K, kappa","lateness means, validated objective, alpha, beta, runtime"
+Appendix F,Table F.1,instances/manifest.csv,experimental block,"scales, scenario counts, replications, seed protocol"
+Appendix F,Table F.2,data/section_5_3/exact_runs.csv; data/section_5_3/decomposition_work.csv,method and J,"variables, constraints, cuts, scenario screens"
+Appendix F,Table F.3,data/section_5_3/exact_runs.csv; data/section_5_3/kbrkga_runs.csv,method,"record counts, validation passes, objective checks"
+Appendix F,Table F.4,data/section_5_3/summary.csv,"J, method",out-of-sample direct and inter-stage waiting diagnostics
+Appendix F,Table F.5,data/section_5_3/paired_comparisons.csv,"J, method pair",paired confidence intervals and p-values
