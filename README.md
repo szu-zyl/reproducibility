@@ -31,7 +31,6 @@ The study is motivated by serial maternal and child healthcare pathways. The rel
 - `run_section53_kbrkga.py` runs K-BRKGA separately from the exact methods.
 - `run_section54.py` runs the lateness-intensity sensitivity experiment.
 - `summarize_section53.py` builds the Section 5.3 combined, summary, paired, and mechanism tables from individual records.
-- `plot_section52.py` recreates Figures 4 and 5.
 - `export_instances.py` writes the static instance files and their manifest.
 - `test_exact_methods.py` compares the three exact methods on a small common instance.
 - `verify_package.py` checks data, instances, summaries, and validation fields.
