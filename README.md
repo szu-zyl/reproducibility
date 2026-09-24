@@ -40,15 +40,6 @@ The study is motivated by serial maternal and child healthcare pathways. The rel
 
 The reported experiments used Python 3.12.3, NumPy 1.26.4, Matplotlib 3.10.8, and Gurobi 11.0.2 on Windows 11. The computer had an Intel Core i5-12400F processor with 6 physical cores, 12 logical cores, and 15.86 GiB of RAM. The MILP experiments used four threads.
 
-Create the environment with:
-
-```text
-conda env create -f environment.yml
-conda activate ejor-mas
-```
-
-A working Gurobi license is required. `requirements.txt` is provided for users who prefer an existing Python environment.
-
 ## Instance and seed protocol
 
 Section 5.2 uses ten replications with master seeds `2025 + 10r`, where `r=0,...,9`. The 500-scenario base draw for each replication is stored once. Instances with 15, 50, and 200 scenarios use the corresponding prefix.
